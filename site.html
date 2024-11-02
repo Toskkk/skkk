@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./site.css"
+    <title></title>
+</head>
+<body>
+    <style
+    .tab > input[type="radio"] {
+        display: none;
+      }
+    
+      .tab-content {
+        display: none;
+      }
+    
+      #tab-btn-1:checked~#content-1,
+      #tab-btn-2:checked~#content-2,
+      #tab-btn-3:checked~#content-3 {
+        display: block;
+      }
+    </style>
+    <header class="head-site" id="home">
+        <nav class="items">
+            <h3 class="title-site">AnimeTop</h3>
+            <li class="item"><a href="#home" class="link-bth">Главная</a></li>
+            <li class="item"><a href="#Anime" class="link-bth">Аниме</a></li>
+            <li class="item"><a href="#Top100" class="link-bth">Топ 100</a></li>
+            <li class="item"><a href="#newanime" class="link-bth">Онгоинги</a></li>
+            <li class="item"><a href="#FutureAnime" class="link-bth">Анонсы</a></li>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="wrapper" id="shop">
+            <div class="product-wrapper">
+                <img src="/image/serafim.png" alt="LastSerafim" class="product-img">
+                <h3 title="title-product">1 - Последний серафим</h3>
+                <h4 class="description-product">Данное аниме является одним из лучших в моем личном топе</h4>
+                <p class="about-product"></p>
+            </div>
+            <div class="product-wrapper">
+                <img src="/image/0202.png" alt="Любовь - марковь" class="product-img">
+                <h3 title="title-product">2 - Милый во франксе</h3> 
+                <h4 class="description-product">Аниме помешанное на романтике и техно-боях.</h4>
+                <p class="about-product"></p>
+            </div>
+            <div class="product-wrapper">
+                <img src="/image/22222.png" alt="Футболяр" class="product-img">
+                <h3 title="title-product">3 - Чистюля! Аояма</h3>
+                <h4 class="description-product"> Интересное и смешное аниме помешанное на чистоте и футболе</h4>
+                <p class="about-product"></p>
+            </div>
+            <div class="product-wrapper">
+                <img src="/image/333333.png" alt="Шаолинь" class="product-img">
+                <h3 title="title-product">4 - Вечная воля</h3>
+                <h4 class="description-product"> Довольно завлекательное аниме, связанное с даосизмом и боевыми исскуствами</h4>
+                <p class="about-product"></p>
+            </div>
+        </section>
+
+        <div class="tab">
+            <input checked id="tab-btn-1" name="tab-btn" type="checkbox" value="">
+            <label for="tab-btn-1">Вкладка 1</label>
+            <input id="tab-btn-2" name="tab-btn" type="checkbox" value="">
+            <label for="tab-btn-2">Вкладка 2</label>
+            <input id="tab-btn-3" name="tab-btn" type="checkbox" value="">
+            <label for="tab-btn-3">Вкладка 3</label>
+            <div class="tab-content" id="content-1">
+              Содержимое 1...
+            </div>
+            <div class="tab-content" id="content-2">
+              Содержимое 2...
+            </div>
+            <div class="tab-content" id="content-3">
+              Содержимое 3...
+            </div>
+          </div>
+    </main> 
+    <footer class="foot-site">
+        <h3 class="foot title"> Аниме-Портал </h3>  
+        <nav class="nav-foot">
+            <li class="foot-items">
+                <a href="https://github.com/Kokkss" target="_blank"
+                class="link-foot"> githab</a>
+            </li>
+            <li class="foot-items"> </li>
+               <a href="https://github.com/Kokkss" target="_blank"
+                class="link-foot"> hihiha</a>
+            </li> 
+            <li class="foot-items"> 
+                <a href="https://github.com/Kokkss" target="_blank"
+                class="link-foot"> hihiha</a>
+            </li>
+        </nav>
+    </footer>
+</body>
+</html>
+
+
+
